@@ -2,7 +2,7 @@
 
 ####¿Qué es mi producto y para qué sirve?
 
-Esta aplicación es una moderna y eficiente herramienta de gestión de tareas, diseñada para gestionar de manera sencilla y efectiva todas tus tareas diarias, ya sean laborales, académicas o personales, desde el lado del servidor usando express.
+Esta aplicación es una moderna y eficiente herramienta de manejo de tareas, diseñada para gestionar de manera sencilla y efectiva todas tus tareas diarias, ya sean laborales, académicas o personales, desde el lado del servidor usando express.
 
 ####Funcionalidades principales y beneficios:
 
