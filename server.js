@@ -24,6 +24,19 @@ let tasks = [
     description: "Implement Express Router in server.js",
   },
 ];
+
+//Definir metodos válidos
+const Allowed_Methods = ["GET", "POST", "PUT", "DELETE"];
+
+// Middleware para comprobar métodos HTTP permitidos
+app.use((req, res, next) => {
+  if (!Allowed_Methods.includes(req.method)) {
+    res.status(405).send("Método no permitido");
+  } else {
+    next();
+  }
+});
+
 // Middlewares
 app.use(express.json()); // Para poder leer el cuerpo de las solicitudes POST/PUT en formato JSON
 app.use("/tasks", listViewRouter(tasks)); // Incorporamos las rutas del router de visualización
