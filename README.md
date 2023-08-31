@@ -10,6 +10,7 @@ Esta aplicación es una moderna y eficiente herramienta de gestión de tareas, d
     Borrado fácil de tareas.
     Edición de tareas sin restricciones.
     100% backend.
+    Uso de Middleware para optimizar al aplicación y mejorar la lógica aplicada.
 
 ####¿Por qué los usuarios preferirían nuestra aplicación?
 
