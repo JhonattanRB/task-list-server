@@ -1,20 +1,3 @@
-## Server using Express
+## Server using Express with JWT
 
-####¿Qué es mi producto y para qué sirve?
-
-Esta aplicación es una moderna y eficiente herramienta de gestión de tareas, diseñada para gestionar de manera sencilla y efectiva todas tus tareas diarias, ya sean laborales, académicas o personales, desde el lado del servidor usando express.
-
-####Funcionalidades principales y beneficios:
-
-    Agregar tareas de manera intuitiva.
-    Borrado fácil de tareas.
-    Edición de tareas sin restricciones.
-    100% backend.
-    Uso de Middleware para optimizar al aplicación y mejorar la lógica aplicada.
-
-####¿Por qué los usuarios preferirían nuestra aplicación?
-
-Además de las características mencionadas, ofrecemos:
-
-    Seguridad: Protección de datos garantizada, asegurando que tu información permanezca privada y segura.
-    Soporte Técnico: Un equipo dedicado listo para ayudarte con cualquier inquietud o problema técnico. 3.Actualizaciones Constantes: Nos esforzamos por mejorar y adaptarnos a las necesidades cambiantes de nuestros usuarios, ofreciendo actualizaciones regulares con nuevas características y soluciones a problemas.
+The server, in addition to managing tasks, implements the creation of a JWT in the /login route so that a series of predefined users (Adim/client) can access specific routes.
